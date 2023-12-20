@@ -1,0 +1,220 @@
+
+
+#Home
+{
+    height: 90%;
+
+}
+#nav
+{
+    display:flex;
+    flex-direction: row;
+   
+    height: 8%;
+    font-family:sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+     background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+ 
+
+
+
+.navbar
+{
+    color:black;
+    margin: 8px 30px;
+    font-size: 25px;
+    transition: 2ms ease-in-out 0.2s;
+    text-decoration: none;
+    text-shadow:
+      1px 1px 2px black,
+      0 0 1em rgb(16, 16, 21),
+      0 0 0.2em rgb(15, 15, 19);
+    color: white;
+    font:
+      1.5em Georgia,
+      serif;
+}
+
+.navbar:hover{
+transform: scale(1.2);
+
+}
+
+
+.desc
+{
+
+background-color: rgb(255, 202, 196);
+color: black;
+height: 15%;
+width:400px;
+border-radius:10px ;
+text-align: center;
+padding: 1px;
+font-size: larger;
+}
+.content
+{
+    height: 25%; 
+    padding-top: 20%;
+    font-size:large;
+    font-family: fantasy;
+  
+    text-align: center;
+}
+
+.maincard
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 90px;
+    margin-bottom: 100px;
+
+}
+ .card
+ {
+    border: 1px solid black;
+    height:500px;
+    width:402px;
+border-radius: 10px; 
+box-shadow: 5px 5px 10px #888888;
+background-color: antiquewhite;
+}
+.card:hover{
+    transform: scale(1.2);
+}
+#btn
+{
+    margin: 10px 40%;
+    height: 30px;
+    width:100px;
+    font-weight: 900;
+
+}
+
+.output
+{
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.table
+{
+
+    margin: 10px;    
+    margin-top: 15px;
+}
+
+
+
+.nav2
+{
+    padding: 0 40%;
+    font-size: 25px;
+    height: 20%;
+    transition: 2ms ease-in-out 0.2s;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:
+    1px 1px 1.5px black,
+    0 0 0.8em rgb(22, 15, 21),
+    0 0 0.1em rgb(22, 17, 22);
+  color: white;
+  font:
+    1.5em Georgia,
+    serif;
+}
+
+#sel
+{
+    height: 40px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.white-text-with-blue-shadow {
+    text-shadow:
+      1px 1px 2px black,
+      0 0 1em rgb(7, 7, 16),
+      0 0 0.2em rgb(25, 25, 32);
+    color: white;
+    font:
+      1.5em Georgia,
+      serif;
+      margin-bottom: 10px;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 5px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
